@@ -1,81 +1,78 @@
+/* style.css >> stylesheet */
+
+
+/*  styles  */
 
 body {
-  min-width: 250px;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #D4DF9E;
 }
-
-main {
-  padding-left: 20px;
-}
-
-nav {
-  border: 1px solid #000;
-  padding: 10px;
-  margin: 60px 20px 0 0;
-  width: 50%;
-  float: right;
-  color: #F1BF98;
-}
-
-.imageContainer {
-  float: left;
-  width: 420px;
-}
-
-header:after, 
-nav:after {
-  content: " ";
-  display: table;
-  clear: both;
-}  
 
 header {
-  background-color: #6B818C;
+    height: 120px;
+    background-color: #6B654B;
 }
 
-h1 {
-  color: #08415C;
-  padding: 60px 0 20px 20px;
-  margin: 0;
-  float: left;
-  font-family: Calibri, sans-serif;
-  font-size: 24px;
+.logo {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 48px;
+    color: #D8DAB0;
+    text-align: left;
+    margin: 0;
+    padding: 10px;
 }
 
-div {
-  color: #08415C;
-  float: left;
-  font-family: Calibri, sans-serif;
-}
-
-h2 {
- color: #08415C;
-  float: left;
-  font-family:Calibri, sans-serif;
-  font-size: 22px;
-}
-
-h3 {
-  color: #08415C;
-  float: left;
-  font-family:Calibri, sans-serif;
-  font-size: 18px;
-}
-
-p {
-  color: #08415C;
-  float: left;
-  font-family:Calibri, sans-serif;
-  font-size: 16px;
-}
-
-ol {
-  color: #08415C;
-  float: left;
-  font-family:Calibri, sans-serif;
-  font-size: 14px;
+header h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #D8DAB0;
+    margin: 10px;
+    font-size: 20px;
+    text-align: left;
 }
 
 footer {
-    margin: 200px 0 0 0;
-    padding: 20px 0;
+    background-color: #6B654B;
+    margin: 0;
+}
+
+/*  type  */
+
+h1, h2, h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-align: left;
+}
+
+h1 {font-size: 22px;}
+h2 {font-size: 18px;}
+h3 {font-size: 14px;}
+
+p, li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0;
+}
+
+a {
+    font-weight: 500;
+    text-decoration: underline;
+}
+a:link {color:blue}
+a:visited {color: aqua;}
+a:hover {color: blueviolet;}
+a:active {color: black;}
+
+footer p {
+    color: #D8DAB0;
+    text-align: left;
+    padding: 10px;
+    margin: 0;
+}
+
+/*  image  */
+
+img, iframe {
+    width: auto;
+    border-radius: 4px;
+    border: 2px solid black;
 }
